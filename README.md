@@ -42,7 +42,7 @@ turbo gen workspace --copy
 Run a single workspace:
 
 ```sh
-turbo dev --filter <name of workspace>
+turbo dev --F <name of workspace>
 ```
 
 Run all workspaces:
