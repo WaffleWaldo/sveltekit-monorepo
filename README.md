@@ -35,12 +35,18 @@ This Turborepo has some additional tools already setup for you:
 
 Create a new workspace from template:
 
-`turbo gen workspace --copy`
+```sh
+turbo gen workspace --copy
+```
 
 Run a single workspace:
 
-`turbo dev --filter <name of workspace>`
+```sh
+turbo dev --filter <name of workspace>
+```
 
 Run all workspaces:
 
-`turbo dev`
+```sh
+turbo dev
+```
